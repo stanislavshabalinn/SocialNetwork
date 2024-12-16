@@ -13,6 +13,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="DAL\Repositories\BaseRepository.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="DAL\DB\social_network_bd.db">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
